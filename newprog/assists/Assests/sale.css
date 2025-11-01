@@ -1,0 +1,81 @@
+
+ .best-sale{
+  text-align: center;
+  padding: 10px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+ }
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.sale-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container {
+  position: relative;
+  flex: 1 1 45%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.detail{
+    font-style:center;
+}
+
+.info {
+  flex: 1 1 45%;
+  padding: 20px;
+}
+
+.info h3 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.info ul li::before {
+  content: "•";
+  color: #ffcc00;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.extra {
+  margin-top: 15px;
+  color: #ccc;
+}
+
+.bottom-text {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1em;
+  color: #ddd;
+}
